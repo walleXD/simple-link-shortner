@@ -17,7 +17,7 @@
 ### Exploring API
 
 The application include `trpc-playground`, which created an interative playground to explore API.
-Start the server and then open "httP://localhost:3000/trpc/v0/playground".
+Start the server and then open "http://localhost:3000/trpc/v0/playground".
 
 In the browser, now we can use a simple JS client to interact with the API.
 

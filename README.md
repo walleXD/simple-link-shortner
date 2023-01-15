@@ -54,6 +54,10 @@ await trpc.linkShortner.getOriginalUrl.query({
 export {};
 ```
 
+### Project structure
+
+The Simple Link Shortener service is designed with a modular, domain-driven architecture.[tRPC](https://trpc.io/) is utilized as the primary communication layer for the API, with the entry route for shortened URLs being '/:hash', where the hash corresponds to the original URL. The project setup is stored in the 'src/modules/meta' folder, and all logic and routing related to the link shortener functionality is located in the 'src/modules/linkShortner' folder. This organization allows for easy discovery and refactoring of associated code.
+
 ### Caveats
 
 #### Production readiness
